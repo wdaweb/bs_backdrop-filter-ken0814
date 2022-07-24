@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css'>
+  <title>Document</title>
+  <style>
+    body {
+      background: url('./image/jojo.jpg') no-repeat;
+      background-attachment: fixed;
+    }
+
+    .backdrop-filter-grayscale {
+      backdrop-filter: grayscale(1)
+    }
+
+    .backdrop-filter-brightness {
+      backdrop-filter: brightness(1.5)
+    }
+
+    .backdrop-filter-blur {
+      backdrop-filter: blur(5px)
+    }
+
+    .backdrop-filter-contrast {
+      backdrop-filter: contrast(0.8)
+    }
+
+    .backdrop-filter-invert {
+      backdrop-filter: invert(0.7)
+    }
+
+    .backdrop-filter-opacity {
+      backdrop-filter: opacity(0.4)
+    }
+
+    .backdrop-filter-sepia {
+      backdrop-filter: sepia(0.4)
+    }
+
+    .backdrop-filter-saturate {
+      backdrop-filter: saturate(1.8)
+    }
+
+    .backdrop-filter-hue-rotate {
+      backdrop-filter: hue-rotate(120deg)
+    }
+
+    @media (min-width:768px) {
+      .colHeight {
+        height: 85vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid p-5">
+    <div class="row m-0 flex-md-nowrap">
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border rounded-top p-5 fs-3 m-0">
+        backdorp-filter效果
+      </div>
+      <div class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border p-5 m-0">
+        backdrop-filter:
+        none</div>
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border p-5 m-0 backdrop-filter-grayscale">
+        backdrop-filter:
+        grayscale(1)</div>
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border p-5 m-0 backdrop-filter-brightness">
+        backdrop-filter:
+        brightness(1.5)</div>
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border p-5 m-0 backdrop-filter-blur">
+        backdrop-filter: blur(5px)
+      </div>
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border p-5 m-0 backdrop-filter-contrast">
+        backdrop-filter:
+        contrast(0.8)</div>
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border p-5 m-0 backdrop-filter-invert">
+        backdrop-filter:
+        invert(0.7)</div>
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border p-5 m-0 backdrop-filter-opacity">
+        backdrop-filter:
+        opacity(0.4)</div>
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border p-5 m-0 backdrop-filter-sepia">
+        backdrop-filter:
+        sepia(0.4)</div>
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border p-5 m-0 backdrop-filter-saturate">
+        backdrop-filter:
+        saturate(1.8)</div>
+      <div
+        class="colHeight col-md-3 d-flex justify-content-center align-items-center text-white border rounded-bottom p-5 m-0 backdrop-filter-hue-rotate">
+        backdrop-filter: hue-rotate(120deg)
+      </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js'></script>
+</body>
+
+</html>
